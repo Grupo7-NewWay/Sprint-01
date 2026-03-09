@@ -89,7 +89,7 @@ body {
 /*BANNER*/
 .banner {
   height: var(--tamanho-banner);
-  background-image: url("../assets/imgs/Rectangle\ 4.png");
+  background-image: url("../assets/imgs/Rectangle\ 3.png");
   background-size: cover;
   background-position: center;
 }
