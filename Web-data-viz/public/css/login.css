@@ -22,6 +22,18 @@ body {
     width: 100vw;
     height: 100vh;
 }
+.voltar-inicio {
+    text-decoration: none;
+    color: #e09510;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.voltar-inicio:hover {
+    color: #f5ba5a;
+}
 
 
 /* Parte esquerda */

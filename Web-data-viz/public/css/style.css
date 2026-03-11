@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=DM+Sans:wght@400;500&family=Syne:wght@700;800&display=swap');
 
-/* ════════════════════════════════
-   RESET
-════════════════════════════════ */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ════════════════════════════════
-   LUCIDE ICONS
-════════════════════════════════ */
+/*  LUCIDE ICONS */
 [data-lucide] {
     width: 2.8vh;
     height: 2.8vh;
@@ -46,9 +42,7 @@ body {
     stroke-width: 1.5;
 }
 
-/* ════════════════════════════════
-   NAVBAR
-════════════════════════════════ */
+/* NAVBAR */
 .header {
     width: 100vw;
     padding: 2.5vh 2vw;
@@ -85,9 +79,7 @@ body {
     color: #f5a623;
 }
 
-/* ════════════════════════════════
-   BANNER
-════════════════════════════════ */
+/* BANNER */
 .banner {
     height: 55vh;
     background-image: url('../assets/imgs/Rectangle\ 3.png');
@@ -123,9 +115,7 @@ body {
     line-height: 1.5;
 }
 
-/* ════════════════════════════════
-   SEÇÃO: POR QUE CRIAMOS
-════════════════════════════════ */
+/* EÇÃO: POR QUE CRIAMOS*/
 .porque {
     background: #f7f6f3;
     padding: 8vh 4vw 6vh;
@@ -140,7 +130,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.5vh;
     font-weight: 400;
-    color: #888888;
+    color: #f5a623;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 1vh;
@@ -165,21 +155,19 @@ body {
     padding: 4vh 3vw;
     border-left: 0.5vh solid #f5a623;
     box-shadow: 0 0.3vh 2vh rgba(0, 0, 0, 0.04);
-    max-width: 40vw;
-    margin-left: auto;
+    max-width: 65vw;
+    margin-left: -5vw;
 }
 
 .porque-texto {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 1.9vh;
     font-weight: 300;
     color: #444;
     line-height: 1.75;
 }
 
-/* ════════════════════════════════
-   SEÇÃO: NOSSA SOLUÇÃO
-════════════════════════════════ */
+/* SEÇÃO: NOSSA SOLUÇÃO */
 .solucao {
     background: #f7f6f3;
     padding: 7vh 4vw;
@@ -286,9 +274,7 @@ body {
     line-height: 1.8;
 }
 
-/* ════════════════════════════════
-   SEÇÃO: DESTINOS POPULARES
-════════════════════════════════ */
+/* SEÇÃO: DESTINOS POPULARES */
 .destinos {
     background: #f7f6f3;
     padding: 7vh 4vw;
@@ -344,7 +330,8 @@ body {
 .carrossel-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;    
+    object-position: center;    
     display: block;
 }
 
@@ -352,6 +339,7 @@ body {
     background: #000e3a;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 4vh 2.5vw;
 }
 
@@ -359,6 +347,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5vh;
+    text-align: center; 
 }
 
 .carrossel-tag {
@@ -438,9 +427,7 @@ body {
     transform: scale(1.25);
 }
 
-/* ════════════════════════════════
-   SEÇÃO: A MELHOR FASE
-════════════════════════════════ */
+/*   SEÇÃO: A MELHOR FASE */
 .melhor-fase {
     background: #f7f6f3;
     padding: 7vh 4vw 9vh;
@@ -531,9 +518,7 @@ body {
     color: rgba(255, 255, 255, 0.65);
 }
 
-/* ════════════════════════════════
-   FOOTER
-════════════════════════════════ */
+/*FOOTER */
 .footer {
     background: #000e3a;
     padding: 5vh 4vw 3.5vh;
@@ -623,10 +608,7 @@ body {
     font-weight: 300;
 }
 
-/* ════════════════════════════════════════════════
-   RESPONSIVO — max-width: 900px
-   (mesmo breakpoint do login)
-════════════════════════════════════════════════ */
+/*  RESPONSIVO — max-width: 900px */
 @media (max-width: 900px) {
 
     /* Navbar */

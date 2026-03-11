@@ -38,6 +38,10 @@
       text-transform: uppercase;
       margin-bottom: 10px;
     }
+    .new-agency a {
+    text-decoration: none;
+    color: #e09510;
+}
 
     .create-account {
       font-family: 'Roboto Flex', sans-serif;
